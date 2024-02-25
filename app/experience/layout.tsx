@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Radio_Canada} from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "../global.css";
 
-const radio = Radio_Canada({
+const radio = Montserrat({
   subsets: ["latin"],
-  weight: ["400", "600"],
-})
+  weight: "400",
+});
 
 export const metadata: Metadata = {
   title: "isaiah",
