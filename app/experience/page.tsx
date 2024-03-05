@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Montserrat, Noto_Sans } from "next/font/google";
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "@/components/Navbar";
 
 const radio = Montserrat({
