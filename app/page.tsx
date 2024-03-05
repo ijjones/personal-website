@@ -12,20 +12,20 @@ export default function Home() {
             <Navbar />
           </div>
 
-          <div className="font-bold pt-10 pb-3 text-mypink tracking-widest text-lg">
+          <div className="font-bold pt-10 pb-3 text-mygreen tracking-widest text-lg">
             hello
           </div>
           <p>[ he/him ]</p>
 
           <p className="pt-10">
-            stuff
+            i'm currently a mathematics - computer science major at university
+            of california, san diego. i have a passion for coding, learning, and
+            building.
           </p>
-          <p className="pt-10">
-            stuff{" "}
-          </p>
+          <p className="pt-10">stuff </p>
 
           <p className="pt-10">
-            stuff,{" "}
+            i'm always open to exploring new opportunities,{" "}
             <span className="font-bold">
               <a href="mailto:ijjones@ucsd.edu">connect with me here.</a>
             </span>
@@ -36,10 +36,7 @@ export default function Home() {
               <img src="/github.svg" alt="github" width={30} height={30} />
             </a>
 
-            <a
-              href="https://www.linkedin.com/in/ij-jones/"
-              className="pr-5"
-            >
+            <a href="https://www.linkedin.com/in/ij-jones/" className="pr-5">
               <img src="/linkedin.svg" alt="linkedin" width={30} height={30} />
             </a>
           </ul>

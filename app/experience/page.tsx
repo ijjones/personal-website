@@ -18,34 +18,35 @@ export default function Home() {
             <Navbar />
           </div>
 
-          <div className="font-bold pt-10 pb-5 text-mypink">WORK</div>
-          <p>
-            stuff{" "}
-            <a className="underline">
-              stuff
-            </a>
-          </p>
-          {/* <p className="text-mygray">summer 2023 - react</p> */}
+          <div className="font-bold pt-10 pb-5 text-mygreen">WORK</div>
 
-          <div className="font-bold pt-10 pb-5 text-mypink">PROJECTS</div>
           <div className="flex justify-between items-center">
-            <p className="">stuff</p>
+            <p className="">e3 civic high</p>
             <div className="flex">
-              {/* <a
-                href="https://threads-clone-ebon-eight.vercel.app/"
+              <a>2019 - 2020</a>
+            </div>
+          </div>
+          <p className="text-mygray">office assistant</p>
+
+          <div className="font-bold pt-10 pb-5 text-mygreen">PROJECTS</div>
+          <div className="flex justify-between items-center">
+            <p className="">social media app</p>
+            <div className="flex">
+              <a
+                href="https://social-app-phi-bice.vercel.app/"
                 className="ml-4 mr-2 hover:underline"
               >
                 live
-              </a> */}
+              </a>
               <a
-                href="https://github.com/laura-codess/threads-clone"
+                href="https://github.com/ij-jones/social-app"
                 className="hover:underline"
               >
                 github
               </a>
             </div>
           </div>
-          {/* <p className="text-mygray">next.js, mongodb, typescript, tailwind</p> */}
+          <p className="text-mygray">next.js, mongodb, typescript, tailwind</p>
 
           <div className="flex justify-between items-center">
             <p className="pt-5">python aim trainer</p>
@@ -78,10 +79,7 @@ export default function Home() {
               <img src="/github.svg" alt="github" width={30} height={30} />
             </a>
 
-            <a
-              href="https://www.linkedin.com/in/ij-jones/"
-              className="pr-5"
-            >
+            <a href="https://www.linkedin.com/in/ij-jones/" className="pr-5">
               <img src="/linkedin.svg" alt="linkedin" width={30} height={30} />
             </a>
           </ul>
