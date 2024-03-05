@@ -73,14 +73,18 @@ export default function Home() {
             </div>
           </div>
           <p className="text-mygray">python, pandas, numpy, matplotlib</p>
-
           <ul className="pt-10 flex flex-row">
             <a href="https://github.com/ij-jones" className="pr-5">
-              <img src="/github.svg" alt="github" width={30} height={30} />
+              <Image src="/github.svg" alt="github" width={30} height={30} />
             </a>
 
             <a href="https://www.linkedin.com/in/ij-jones/" className="pr-5">
-              <img src="/linkedin.svg" alt="linkedin" width={30} height={30} />
+              <Image
+                src="/linkedin.svg"
+                alt="linkedin"
+                width={30}
+                height={30}
+              />
             </a>
           </ul>
         </div>

@@ -25,7 +25,7 @@ export default function Home() {
           <p className="pt-10">stuff </p>
 
           <p className="pt-10">
-            i'm always open to exploring new opportunities,{" "}
+            i&apos;m always open to exploring new opportunities,{" "}
             <span className="font-bold">
               <a href="mailto:ijjones@ucsd.edu">connect with me here.</a>
             </span>
