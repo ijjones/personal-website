@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import Head from "next/head";
+import type { ReactNode } from "react";
 import { Montserrat } from "next/font/google";
 import "./global.css";
 
@@ -7,26 +8,25 @@ const radio = Montserrat({
   weight: ["400", "600"],
 });
 
-export const metadata: Metadata = {
-  title: "isaiah",
-  description: "isaiah's personal portfolio",
-  icons: {
-    icon: "/favicon.ico",
-  },
-};
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
-      <body
-        className={`${radio.className} min-h-screen pl-0 pr-0 pt-12 pb-2 mx-10 flex justify-center sm:mx-24`}
-      >
-        {children}
-      </body>
-    </html>
+    <>
+      <Head>
+        <title>isaiah - Personal Portfolio</title>
+        <meta name="description" content="isaiah's personal portfolio" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <html lang="en">
+        <body
+          className={`${radio.className} min-h-screen pl-0 pr-0 pt-12 pb-2 mx-10 flex justify-center sm:mx-24`}
+        >
+          {children}
+        </body>
+      </html>
+    </>
   );
 }
