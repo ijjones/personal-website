@@ -4,7 +4,7 @@ import "./global.css";
 
 const radio = Montserrat({
   subsets: ["latin"],
-  weight: "400",
+  weight: "500",
 });
 
 export default function RootLayout({

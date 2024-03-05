@@ -13,7 +13,7 @@ export default function Home() {
           </div>
 
           <div className="font-bold pt-10 pb-3 text-mygreen tracking-widest text-lg">
-            hello
+            hello, hola
           </div>
           <p>[ he/him ]</p>
 
