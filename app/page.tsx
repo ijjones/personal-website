@@ -18,9 +18,9 @@ export default function Home() {
           <p>[ he/him ]</p>
 
           <p className="pt-10">
-            i'm currently a mathematics - computer science major at university
-            of california, san diego. i have a passion for coding, learning, and
-            building.
+            i&apos;m currently a mathematics - computer science major at
+            university of california, san diego. i have a passion for coding,
+            learning, and building.
           </p>
           <p className="pt-10">stuff </p>
 
@@ -33,11 +33,16 @@ export default function Home() {
 
           <ul className="pt-10 flex flex-row">
             <a href="https://github.com/ij-jones" className="pr-5">
-              <img src="/github.svg" alt="github" width={30} height={30} />
+              <Image src="/github.svg" alt="github" width={30} height={30} />
             </a>
 
             <a href="https://www.linkedin.com/in/ij-jones/" className="pr-5">
-              <img src="/linkedin.svg" alt="linkedin" width={30} height={30} />
+              <Image
+                src="/linkedin.svg"
+                alt="linkedin"
+                width={30}
+                height={30}
+              />
             </a>
           </ul>
         </div>
