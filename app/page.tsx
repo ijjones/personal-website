@@ -22,7 +22,7 @@ export default function Home() {
             university of california, san diego. i have a passion for coding,
             learning, and building.
           </p>
-          <p className="pt-10">stuff </p>
+          <p className="pt-10"> when i'm not programming you can catch me making music or playing sports. </p>
 
           <p className="pt-10">
             i&apos;m always open to exploring new opportunities,{" "}
@@ -32,11 +32,11 @@ export default function Home() {
           </p>
 
           <ul className="pt-10 flex flex-row">
-            <a href="https://github.com/ij-jones" className="pr-5">
+            <a href="https://github.com/ijjones" className="pr-5">
               <Image src="/github.svg" alt="github" width={30} height={30} />
             </a>
 
-            <a href="https://www.linkedin.com/in/ij-jones/" className="pr-5">
+            <a href="https://www.linkedin.com/in/ijjones/" className="pr-5">
               <Image
                 src="/linkedin.svg"
                 alt="linkedin"
