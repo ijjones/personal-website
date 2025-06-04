@@ -29,6 +29,33 @@ export default function Home() {
           <p className="text-mygray">contractor</p>
 
           <div className="font-bold pt-10 pb-5 text-mygreen">PROJECTS</div>
+          
+          <div className="flex justify-between items-center">
+            <p className="pt-5">mobile movie application</p>
+            <div className="flex">
+              <a
+                href="https://github.com/ijjones"
+                className="hover:underline"
+              >
+                github
+              </a>
+            </div>
+          </div>
+          <p className="text-mygray">expo, react native, typescript, appwrite, tailwind </p>
+
+          <div className="flex justify-between items-center">
+            <p className="pt-5">us suicide risk factors analysis</p>
+            <div className="flex">
+              <a
+                href="https://github.com/ijjones"
+                className="hover:underline"
+              >
+                github
+              </a>
+            </div>
+          </div>
+          <p className="text-mygray">python, pandas, numpy, matplotlib</p>
+
           <div className="flex justify-between items-center">
             <p className="">social media app</p>
             <div className="flex">
@@ -39,46 +66,21 @@ export default function Home() {
                 live
               </a>
               <a
-                href="https://github.com/ij-jones/social-app"
+                href="https://github.com/ijjones/social-app"
                 className="hover:underline"
               >
                 github
               </a>
             </div>
           </div>
-          <p className="text-mygray">next.js, mongodb, typescript, tailwind</p>
-
-          <div className="flex justify-between items-center">
-            <p className="pt-5">python aim trainer</p>
-            <div className="flex">
-              <a
-                href="https://github.com/ij-jones/aim-trainer"
-                className="hover:underline"
-              >
-                github
-              </a>
-            </div>
-          </div>
-          <p className="text-mygray">python, pygame</p>
-
-          <div className="flex justify-between items-center">
-            <p className="pt-5">us suicide risk factors analysis</p>
-            <div className="flex">
-              <a
-                href="https://github.com/ij-jones/aim-trainer"
-                className="hover:underline"
-              >
-                github
-              </a>
-            </div>
-          </div>
-          <p className="text-mygray">python, pandas, numpy, matplotlib</p>
+          <p className="text-mygray">next.js, mongodb, clerk, typescript, tailwind</p>
+          
           <ul className="pt-10 flex flex-row">
-            <a href="https://github.com/ij-jones" className="pr-5">
+            <a href="https://github.com/ijjones" className="pr-5">
               <Image src="/github.svg" alt="github" width={30} height={30} />
             </a>
 
-            <a href="https://www.linkedin.com/in/ij-jones/" className="pr-5">
+            <a href="https://www.linkedin.com/in/ijjones/" className="pr-5">
               <Image
                 src="/linkedin.svg"
                 alt="linkedin"
