@@ -21,12 +21,12 @@ export default function Home() {
           <div className="font-bold pt-10 pb-5 text-mygreen">WORK</div>
 
           <div className="flex justify-between items-center">
-            <p className="">e3 civic high</p>
+            <p className="">scale ai</p>
             <div className="flex">
-              <a>2019 - 2020</a>
+              <a>2024 - 2025</a>
             </div>
           </div>
-          <p className="text-mygray">office assistant</p>
+          <p className="text-mygray">contractor</p>
 
           <div className="font-bold pt-10 pb-5 text-mygreen">PROJECTS</div>
           <div className="flex justify-between items-center">
