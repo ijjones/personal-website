@@ -31,7 +31,7 @@ export default function Home() {
           <div className="font-bold pt-10 pb-5 text-mygreen">PROJECTS</div>
           
           <div className="flex justify-between items-center">
-            <p className="pt-5">mobile movie application</p>
+            <p className="">mobile movie application</p>
             <div className="flex">
               <a
                 href="https://github.com/ijjones"
@@ -57,7 +57,7 @@ export default function Home() {
           <p className="text-mygray">python, pandas, numpy, matplotlib</p>
 
           <div className="flex justify-between items-center">
-            <p className="">social media app</p>
+            <p className="pt-5">social media app</p>
             <div className="flex">
               <a
                 href="https://social-app-phi-bice.vercel.app/"
