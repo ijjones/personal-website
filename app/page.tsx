@@ -22,7 +22,7 @@ export default function Home() {
             university of california, san diego. i have a passion for coding,
             learning, and building.
           </p>
-          <p className="pt-10"> when i'm not programming you can catch me making music or playing sports. </p>
+          <p className="pt-10"> when i&apos;m not programming you can catch me making music or playing sports. </p>
 
           <p className="pt-10">
             i&apos;m always open to exploring new opportunities,{" "}
